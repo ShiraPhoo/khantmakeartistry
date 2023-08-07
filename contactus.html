@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/domaine-display-narrow"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>KMA - Khant Makeup Artistry</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="img/logo white.png" alt="Logo" class="logo" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times closeMenu" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html" class="home">About</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+
+    <!-- Contact us content -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15274.648227766986!2d96.1988363!3d16.8431131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19300e81b86bd%3A0x599d308b7581a427!2sKhant%20Makeup%20Artistry!5e0!3m2!1sen!2sth!4v1691403506706!5m2!1sen!2sth"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span
+              ><h5>No.LB4, Moe Ma Kha Street , Malikha Garden Home</h5>
+              <p>11061 Thingangyun</p></span
+            >
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <span
+              ><h5>+95 9 795 975 516</h5>
+              <p>Monday to Saturday, 10AM to 5PM</p></span
+            >
+          </div>
+
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span
+              ><h5>kma.school@gmail.com</h5>
+              <p>Email us your query</p></span
+            >
+          </div>
+        </div>
+
+        <div class="contact-col">
+          <form action="form-handler.php" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter your subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem
+        est <br />
+        unde ut labore ea veniam illo hic saepe necessitatibus laborum molestias
+        voluptatem, iste, eos, consectetur laboriosam sint magni corrupti!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>
+        Copyright © 2023 KMA Professional Makeup Academy. All Rights Reserved.
+      </p>
+    </section>
+
+    <!-- JS -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
