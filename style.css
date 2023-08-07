@@ -18,19 +18,26 @@
   padding: 0;
   margin: 0;
   font-family: "GT Walsheim Pro", sans-serif;
-  color: #1d232f;
+  color: #000;
 }
 .header {
-  background-color: #eee4df;
+  /* background-color: #eee4df; */
+  /* background-color: #c29a94 !important; */
+  /* background-color: #f6e1da; */
+  background-color: #f6eae1;
   min-height: 100vh;
   width: 100%;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; */
 }
 nav {
   display: flex;
   padding: 1% 6%;
   justify-content: space-around;
   align-items: center;
-  color: #463f3c;
 }
 .logo {
   width: 150px;
@@ -47,7 +54,8 @@ nav {
   font-weight: normal;
 }
 .nav-links ul li a {
-  color: #463f3c;
+  color: #000;
+
   text-decoration: none;
   /* letter-spacing: 0.7px; */
 }
@@ -58,7 +66,7 @@ nav {
   content: "";
   width: 0%;
   height: 2px;
-  background: #463f3c;
+  background: #000;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -68,7 +76,7 @@ nav {
 }
 .text-box {
   width: 90%;
-  color: #463f3c;
+  color: #000;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -88,7 +96,7 @@ nav {
   letter-spacing: 0.34px;
 }
 .hero-btn {
-  background-color: #463f3c;
+  background-color: #000;
   display: inline-block;
   text-decoration: none;
   color: #fff;
@@ -101,9 +109,9 @@ nav {
   cursor: pointer;
 }
 .hero-btn:hover {
-  border: 1px solid #463f3c;
+  border: 1px solid #000;
   background: none;
-  color: #463f3c;
+  color: #000;
   transition: 0.1s;
 }
 nav .fa {
@@ -168,12 +176,12 @@ nav .fa {
   margin: auto;
   text-align: center;
   padding-top: 100px;
-  color: #463f3c;
+  color: #000;
 }
 h1 {
   font-size: 36px;
   font-family: "Domaine Display Narrow", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
 }
 p {
   font-size: 14px;
@@ -188,7 +196,7 @@ p {
 }
 .course-col {
   flex-basis: 31%;
-  background: #eee4df;
+  background: #f6eae1;
 
   border-radius: 10px;
   margin-bottom: 5%;
@@ -203,9 +211,11 @@ p {
 }
 h3 {
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Domaine Display Narrow", sans-serif;
   margin: 10px 0;
+  margin-top: 30px;
+  letter-spacing: 0.3px;
 }
 .course-col:hover {
   /* box-shadow: 0 0 20px 0px rgb(184, 125, 87, 0.2); */
@@ -340,8 +350,8 @@ h3 {
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/campus\ 1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(img/enroll.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
