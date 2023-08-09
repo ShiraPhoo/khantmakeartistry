@@ -109,9 +109,9 @@ nav {
   color: #eeece3;
   letter-spacing: 0.1px;
 
-  padding: 12px 40px;
+  padding: 12px 34px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
   cursor: pointer;
 }
@@ -396,7 +396,9 @@ h3 {
 }
 @media (max-width: 700px) {
   .cta h1 {
-    font-size: 36px;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 0px 25px;
   }
 }
 
