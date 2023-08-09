@@ -494,7 +494,14 @@ h3 {
     flex-direction: column;
   }
 } */
-
+@media (max-width: 700px) {
+  /* .about-col {
+    flex-direction: column;
+  } */
+  .sub-header h1 {
+    margin-top: 80px;
+  }
+}
 /* Students */
 
 .students {
